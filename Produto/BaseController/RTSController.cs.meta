@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1996b2ac1ef5e314980bcc0f4e6065f3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - idleAnimation: {instanceID: 0}
+  - walkAnimation: {instanceID: 0}
+  - runAnimation: {instanceID: 0}
+  - castingAnimation: {instanceID: 0}
+  - particleClick: {instanceID: 0}
+  - nodoDestino: {fileID: 11400000, guid: c1cb06841e7d82e4b8a754dfa564a611, type: 2}
+  executionOrder: 100
+  icon: {instanceID: 0}
+  userData: 
