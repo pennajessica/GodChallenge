@@ -1,0 +1,1 @@
+Contem a especificação de requisitos, os modelos elaborados para o projeto, e a documentação final do projeto.

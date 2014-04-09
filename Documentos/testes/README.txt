@@ -1,0 +1,1 @@
+contém os artefatos de testes como plano de testes, sumário de avaliação de testes, casos de testes.
