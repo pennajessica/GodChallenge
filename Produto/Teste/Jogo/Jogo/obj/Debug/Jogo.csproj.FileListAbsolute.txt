@@ -1,0 +1,5 @@
+C:\Users\si\Documents\GitHub\GodChallenge\Produto\Teste\Jogo\Jogo\bin\Debug\Jogo.dll
+C:\Users\si\Documents\GitHub\GodChallenge\Produto\Teste\Jogo\Jogo\bin\Debug\Jogo.pdb
+C:\Users\si\Documents\GitHub\GodChallenge\Produto\Teste\Jogo\Jogo\obj\Debug\Jogo.csprojResolveAssemblyReference.cache
+C:\Users\si\Documents\GitHub\GodChallenge\Produto\Teste\Jogo\Jogo\obj\Debug\Jogo.dll
+C:\Users\si\Documents\GitHub\GodChallenge\Produto\Teste\Jogo\Jogo\obj\Debug\Jogo.pdb
