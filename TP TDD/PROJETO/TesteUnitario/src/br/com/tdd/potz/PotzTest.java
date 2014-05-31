@@ -19,4 +19,11 @@ public class PotzTest extends TestCase {
 		pt1.setCupom("12345678901");
 		assertFalse(pt1.isValido());
 	}
+	
+	public void testeCupomIsNumero() throws Exception {
+		pt1.setCupom("A012345678");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("1234567890");
+		assertTrue(pt1.isValido());
+	}
 }
