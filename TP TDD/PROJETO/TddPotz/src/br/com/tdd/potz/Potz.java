@@ -16,7 +16,7 @@ public class Potz {
 	}
 	
 	public Boolean isValido(){
-		return true;
+		return cupom.length() == 10;
 	}
 
 }
