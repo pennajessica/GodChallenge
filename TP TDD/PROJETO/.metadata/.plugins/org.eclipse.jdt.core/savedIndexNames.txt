@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+C:\Users\si\Documents\GitHub\GodChallenge\TP TDD\PROJETO\.metadata\.plugins\org.eclipse.jdt.core
+3477797028.index
+4213255706.index
+1021562858.index
+1932190347.index
