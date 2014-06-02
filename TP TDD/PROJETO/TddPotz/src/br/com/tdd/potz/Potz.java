@@ -15,8 +15,16 @@ public class Potz {
 		this.cupom = cupom;
 	}
 	
-	public Boolean isValido(){
-		return cupom.length() == 10;
+	public Boolean isValido() {
+		try {
+			Double testaNumero = (Double.parseDouble(cupom));
+		} catch (NumberFormatException e) {
+			return false;
+		}
+		if (cupom.length() == 10) {
+			return true;
+		} else
+			return false;
 	}
 
 }
