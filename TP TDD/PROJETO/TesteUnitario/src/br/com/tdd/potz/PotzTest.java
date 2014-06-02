@@ -27,8 +27,10 @@ public class PotzTest extends TestCase {
 		assertTrue(pt1.isValido());
 	}
 	public void testeCumpomMod11() throws Exception {
-		pt1.setCupom("5001234560");//Exemplo do enunciado
+		pt1.setCupom("5001234565");//Exemplo do enunciado corrigido
 		assertTrue(pt1.isValido());
+		pt1.setCupom("5001234560");
+		assertFalse(pt1.isValido());
 		pt1.setCupom("5001234561");
 		assertFalse(pt1.isValido());
 		pt1.setCupom("5001234562");
@@ -36,8 +38,6 @@ public class PotzTest extends TestCase {
 		pt1.setCupom("5001234563");
 		assertFalse(pt1.isValido());
 		pt1.setCupom("5001234564");
-		assertFalse(pt1.isValido());
-		pt1.setCupom("5001234565");
 		assertFalse(pt1.isValido());
 		pt1.setCupom("5001234566");
 		assertFalse(pt1.isValido());
