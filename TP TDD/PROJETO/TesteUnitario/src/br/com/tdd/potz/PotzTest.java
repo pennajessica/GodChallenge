@@ -26,4 +26,26 @@ public class PotzTest extends TestCase {
 		pt1.setCupom("1234567890");
 		assertTrue(pt1.isValido());
 	}
+	public void testeCumpomMod11() throws Exception {
+		pt1.setCupom("5001234560");//Exemplo do enunciado
+		assertTrue(pt1.isValido());
+		pt1.setCupom("5001234561");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234562");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234563");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234564");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234565");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234566");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234567");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234568");
+		assertFalse(pt1.isValido());
+		pt1.setCupom("5001234569");
+		assertFalse(pt1.isValido());
+	}
 }
