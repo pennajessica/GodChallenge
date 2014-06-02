@@ -6,7 +6,7 @@ public class PotzTest extends TestCase {
 	private Potz pt1 = new Potz("");
 
 	public void testeCupomValido() throws Exception {
-		pt1.setCupom("1234567890");
+		pt1.setCupom("5001234565");
 		assertTrue(pt1.isValido());
 	}
 
@@ -23,7 +23,7 @@ public class PotzTest extends TestCase {
 	public void testeCupomIsNumero() throws Exception {
 		pt1.setCupom("A012345678");
 		assertFalse(pt1.isValido());
-		pt1.setCupom("1234567890");
+		pt1.setCupom("5001234565");
 		assertTrue(pt1.isValido());
 	}
 	public void testeCumpomMod11() throws Exception {

@@ -1,5 +1,7 @@
 package br.com.tdd.potz;
 
+import br.com.util.Mod11Ck;
+
 public class Potz {
 	private String cupom;
 	
@@ -21,10 +23,9 @@ public class Potz {
 		} catch (NumberFormatException e) {
 			return false;
 		}
-		if (cupom.length() == 10) {
+		if (cupom.length() == 10 && Mod11Ck.isValido(cupom)) {
 			return true;
 		} else
 			return false;
 	}
-
 }
