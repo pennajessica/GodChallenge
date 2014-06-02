@@ -48,4 +48,9 @@ public class PotzTest extends TestCase {
 		pt1.setCupom("5001234569");
 		assertFalse(pt1.isValido());
 	}
+	
+	public void testePontosCupom() throws Exception {
+		pt1.setCupom("5001234565");
+		assertTrue(pt1.pontosObtidos() == 500);
+	}
 }

@@ -28,4 +28,12 @@ public class Potz {
 		} else
 			return false;
 	}
+	
+	public int pontosObtidos() {
+		if(this.isValido())
+			return Integer.parseInt(cupom.substring(0,3));
+		else
+			return -1;
+		
+	}
 }
